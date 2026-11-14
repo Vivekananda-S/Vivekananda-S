@@ -17,14 +17,13 @@ A small, calibrated judge model that reads an AI agent's execution trace and say
 
 The [results log](https://github.com/Vivekananda-S/agent-trust-layer/blob/main/docs/results.md) records every decision and mistake, including a benchmark pass signal that turned out to be wrong in both directions.
 
-## Other work
+## Other projects
 
 | Project | What it does |
 |---|---|
-| SmartHire | A LangGraph workflow that screens resumes and scores candidate responses against the criteria for a role |
-| Conversation summariser | Summaries of long multi-speaker conversations, using retrieval and a small model fine-tuned with QLoRA |
-| Job posting agents | A multi-agent LangChain pipeline that turns unstructured job descriptions into structured tables |
-| [Leaf disease detection](https://github.com/Vivekananda-S/PlantDiseasePrediction) | A TensorFlow pipeline served from Google Cloud to a mobile app |
+| [SQL agent](https://github.com/Vivekananda-S/langchain-sql-agent) | An agent that answers plain-English questions about a database. It looks up the schema, writes a SQL query, checks that the query is read-only, runs it, and repairs the query if it fails. Built with LangChain and Gemini. |
+| [Leaf disease detection](https://github.com/Vivekananda-S/PlantDiseasePrediction) | A convolutional network that classifies 15 potato, tomato and pepper leaf conditions from a photo. Served through FastAPI with TensorFlow Serving and a Google Cloud Function, with a React web app and a React Native mobile app. |
+| [Virtual keyboard and mouse](https://github.com/Vivekananda-S/Virtual_Key_Board) | Type and move the cursor with hand gestures in front of a webcam, using OpenCV and MediaPipe hand tracking. |
 
 ## Background
 
